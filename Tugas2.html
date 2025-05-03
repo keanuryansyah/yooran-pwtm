@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FEATHER ICON -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- FONT CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header-section" class="section">
+        <div class="container">
+            <div id="header-content" class="w100 h100">
+                <div id="hc-col1" class="hc-col">
+                   Biodata
+                </div> 
+                <div id="hc-col2" class="hc-col">
+                    <a class="hc-menu" href="Biodata.html">Tugas 1</a>
+                    <a class="hc-menu" href="Tugas2.html">Tugas 2</a>
+                    <a class="hc-menu" href="tugas3.php">On Going</a>
+                </div>
+            </div>  
+        </div>
+    </header>
+
+    <section id="hero-section">
+        <div class="container">
+            <div id="hero-content-tgs2" class="w100 h100">
+                <div id="hec-col1-tgs2" class="hec-col">
+                    <form action="#" method="post">
+                        <label for="nama">Nama Lengkap:</label>
+                        <input type="text" id="nama" name="nama" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="tanggal">Tanggal Lahir:</label>
+                        <input type="date" id="tanggal" name="tanggal" required>
+            
+                        <label for="gender">Jenis Kelamin:</label>
+                        <select id="gender" name="gender">
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select>
+            
+                        <label for="alamat">Alamat:</label>
+                        <textarea id="alamat" name="alamat" rows="3"></textarea>
+            
+                        <label for="foto">Upload Foto:</label>
+                        <input type="file" id="foto" name="foto" accept="image/*">
+            
+                        <button type="submit">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
